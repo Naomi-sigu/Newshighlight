@@ -1,81 +1,42 @@
-# News Highlights
+# News_Paper
 
-## By **limooh brian**
+#### By **[Naomi-sigu](https://github.com/Naomi-sigu)**
 
 ## Description
 
-This is a news application that allows a user to view news from different networks in different parts of the world. It has a list of all the news sources from which the user can pick and read the news directly from the source's site. A user can also search for whatever news using a key word.
+An application that will help users list and preview news articles from various sources and by clicking the articles the user can read the article. 
 
-## Technologies used
+## User Story
 
-python
+* I would like to see various news sources on the homepage of the application.
+* I would also want to select a news source and see all news articles from the selected news source.
+* I would want to see the image, description and the time a news article was created.
+* I would want to click on an article and read the full article from the source.
 
-## Behaviour Driven Development(BDD)
+## Technologies and Dependancy used
 
-| Behaviour | Input | Output |
-| :---------------- | :---------------: | ------------------: |
-| on the site | click on the view airtcles |  displays all the articles news |
-| on the click site | click on website | it displays the websites info on the news |
-|  |  |  |
-|  |  |  |
+* Python3.6
+* Flask framework
+* pip install flask
+* pip install flask-bootstrap
+* pip install flask-script
 
-## Known bugs
+## Known Bugs
 
-no bugs
+there are no bugs that i have encountered yet.
 
-## SetUp / Installation Requirements
+## Support and contact details
 
-### Prerequisites
+Incase of questions and issues contact siguneema@gmail.com.
 
-* python3.6
-* pip
-* Virtual environment(virtualenv)
+## License
 
-### Cloning
+* MIT license 
+Copyright (c) 2019 Naomi sigu
 
-* In your terminal:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-        ` $ git clone https://github.com/limobrian/News-Highlight.git
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-        ` $ cd new-highlight
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-### Creating the virtual environment
-
-        `$ python3.6 -m venv --without-pip virtual
-
-        `$ source virtual/bin/env
-
-        `$ curl https://bootstrap.pypa.io/get-pip.py | python
-
-### Installing Flask and other Modules
-
-        `$ python3.6 -m pip install Flask
-
-        `$ python3.6 -m pip install Flask-Bootstrap
-
-        `$ python3.6 -m pip install Flask-Script
-
-## Setting up the API Key
-
-To be able to gather article info from the News API you will need an API Key.
-Visit   https://newsapi.org/  and register for an API key.
-In the root directory of the project folder create a file: start.sh
-Insert the following info into it:
-export NEWS_API_KEY=''
-python3.6 manage.py server
-Insert the API Key you received from News Api where is.
-
-## Running the Application
-
-* To run the application, in your terminal:
-
-        `$ chmod a+x start.sh
-        `$ ./start.sh
-
-## LICENSE
-
-The application is under an [MIT License].
-
-## Contact Information
-
-You can contact me via my gmail account limobrian290@gmail.com
