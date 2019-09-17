@@ -6,6 +6,7 @@ class Source:
         self.id = id
         self.name = name
         self.description = description
+        
 class Article:
     '''
     Source class to define articles objects
