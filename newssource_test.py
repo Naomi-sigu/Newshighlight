@@ -1,5 +1,6 @@
 import unittest 
 from app.models import Source
+
 class SourceTest(unittest.TestCase):
     '''
     Test of the class to test its behaviour
