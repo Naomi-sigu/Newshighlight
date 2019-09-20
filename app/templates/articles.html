@@ -4,7 +4,7 @@
 <div class="col-6 col-md-4" style="background-image:url('https://image.freepik.com/free-photo/white-marble-texture-background_38679-514.jpg')">
         <p class="text-center">
                 <a href="{{article.url}}">
-                        <img src="{{ article.urlToImage }}" class="img-responsive"></a></p>
+                <img src="{{ article.urlToImage }}" class="img-responsive"></a></p>
         <p class="text-center">{{ article.description|truncate(100)}}</p>
         <p class="text-center">published on {{ article.publishedAt|truncate(20)}}</p>
         <a href="{{article.url}}" target="blank_" class="btn btn-info" role="button">open to read news</a>
